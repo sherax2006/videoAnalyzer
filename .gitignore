@@ -1,0 +1,40 @@
+# Ignore virtual environment
+venv/
+.env/
+.env.*  # Any environment-specific config
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoint files
+.ipynb_checkpoints/
+
+# macOS and system files
+.DS_Store
+Thumbs.db
+
+# Spleeter output (optional – unless you want to track results)
+spleeter_output/
+*.wav
+
+# Streamlit-generated files
+.streamlit/config.toml
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+*~
+*.bak
+*.swp
+*.old
+
+# VSCode and IDE settings (optional)
+.vscode/
+.idea/
+
+# Streamlit cloud cache (optional)
+.cache/
