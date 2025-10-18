@@ -49,13 +49,5 @@ An interactive Streamlit-based web application that allows users to upload a vid
 
 ## 🚀 Getting Started
 
-### 🔧 Prerequisites
-
-Ensure you have Python 3.7+ and the following dependencies:
-
-```bash
-pip install streamlit moviepy spleeter opencv-python-headless pillow
----
-##  Deployed on streamlit cloud
-### Make sure python version on streamlit is 3.10 to ensure compatibility with spleeter
-### URL: https://video-analyzer-app.streamlit.app/
+### Depoyed on Streamlit cloud 
+https://video-analyzer-app.streamlit.app/
