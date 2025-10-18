@@ -55,7 +55,7 @@ Ensure you have Python 3.7+ and the following dependencies:
 
 ```bash
 pip install streamlit moviepy spleeter opencv-python-headless pillow
-
+---
 ##  Deployed on streamlit cloud
-### Make sure python version on streamlit is 3.10 as to ensure compatibility with spleeter
+### Make sure python version on streamlit is 3.10 to ensure compatibility with spleeter
 ### URL: https://video-analyzer-app.streamlit.app/
