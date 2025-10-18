@@ -1,13 +1,30 @@
 # Ignore virtual environment
 venv/
-.env/
+.venv/
+.env
 .env.*  # Any environment-specific config
+.envrc
 
 # Python cache files
 __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+
+# Python build artifacts
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+*.egg
+
+# Test & typing caches
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
 
 # Jupyter Notebook checkpoint files
 .ipynb_checkpoints/
@@ -18,10 +35,14 @@ Thumbs.db
 
 # Spleeter output (optional – unless you want to track results)
 spleeter_output/
-*.wav
+# If you keep example WAVs in repo, avoid globally ignoring them.
+# To ignore generated WAVs under Spleeter outputs only, you could use:
+# spleeter_output/**/*.wav
 
-# Streamlit-generated files
-.streamlit/config.toml
+# Streamlit config/cache
+.streamlit/
+# If you want to keep a committed config, uncomment:
+# !.streamlit/config.toml
 
 # Temporary files
 *.log
@@ -35,6 +56,7 @@ spleeter_output/
 # VSCode and IDE settings (optional)
 .vscode/
 .idea/
+*.code-workspace
 
 # Streamlit cloud cache (optional)
 .cache/

@@ -157,7 +157,8 @@ if video_file:
         st.subheader("🎞️ Original Video Playback")
         col1, col2, col3 = st.columns([1, 2, 1])
         with col2:
-            st.video(video_path)
+            mime = getattr(video_file, "type", None) or "video/mp4"
+            st.video(uploaded_bytes, format=mime, start_time=0)
 
     elif selected_option == "Extracted Audio":
         st.subheader("🔊 Audio Extracted from Video")
