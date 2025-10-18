@@ -49,5 +49,5 @@ An interactive Streamlit-based web application that allows users to upload a vid
 
 ## 🚀 Getting Started
 
-### Depoyed on Streamlit cloud 
+### Deployed on Streamlit cloud 
 https://video-analyzer-app.streamlit.app/
